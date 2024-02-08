@@ -1,0 +1,119 @@
+body {
+  font-family: Arial;
+  color: white;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/bg.jpg) fixed,
+    no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  padding: 20px 10px;
+  font-size: 22px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: -50px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.h1_ {
+  color: crimson;
+}
+
+.menu {
+  border-radius: 500px;
+  width: 30px;
+  cursor: pointer;
+}
+
+#myLinks a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  padding: 5px 2px;
+  background-color: dimgrey;
+  font-size: 25px;
+  display: block;
+  overflow: hidden;
+}
+
+.logo2 {
+  background-color: grey;
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: crimson;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.speciality {
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.logo {
+  width: 300px;
+  border-radius: 20px;
+  border: 5px solid;
+}
+
+.template {
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid;
+}
+
+.subscribe-button {
+  padding: 10px 15px;
+  background-color: crimson;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  transition: opacity 1s;
+}
+
+.subscribe-button:active {
+  opacity: 0.3;
+}
+
+.subscribe_button {
+  padding: 10px 15px;
+  background-color: gainsboro;
+  font-weight: bolder;
+  color: red;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+}
+
+.input {
+  padding: 10px 15px;
+  background-color: transparent;
+  font-weight: bold;
+  border-color: red;
+  border-radius: 5px;
+  font-size: 13px;
+}
